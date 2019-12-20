@@ -31,9 +31,26 @@ body {
 }
 
 .hd-image {
-    min-width: 396px;;
+    min-width: 396px;
     width: 396px;
     height: 60px;
     min-height: 60px;
     margin: 10px auto 0;
+}
+
+@media (max-width: 991px) {
+    .media-mobile {
+        display: none !important;
+    }
+
+    .mobile-header {
+        width: 991px;
+        margin: auto;
+    }
+
+    .hd-image {
+        min-width: 132px;
+        width: 132px;
+        height: 20px;
+    }
 }
