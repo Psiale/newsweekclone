@@ -2,7 +2,12 @@
     color: white;
 }
 
-.color-logo {
+
+.bg-white {
+    background-color: white;
+}
+
+.text-logo {
     color: #f72210;
 }
 
@@ -25,7 +30,7 @@ body {
     margin: 0 100px;
 }
 
-.header-desktop {
+.header {
     height: 95px;
     padding: 20px 10px 15px;
 }
@@ -43,14 +48,20 @@ body {
         display: none !important;
     }
 
-    .mobile-header {
-        width: 991px;
-        margin: auto;
+    .header {
+        margin: 0;
+        padding: 0;
+        height:  50px;
+        max-height: 50px;
     }
 
     .hd-image {
         min-width: 132px;
         width: 132px;
         height: 20px;
+    }
+
+    .font-links {
+        font-size: 18px;
     }
 }
