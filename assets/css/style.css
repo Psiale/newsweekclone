@@ -65,3 +65,27 @@ body {
         font-size: 18px;
     }
 }
+
+@media (max-width: 480px) {
+    .media480px {
+        display: none !important;
+    }
+
+    .text-logo {
+        padding: 6px 3px !important;
+    }
+
+    .right {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .font-links {
+        font: bold 14px/14px "Roboto Condensed",sans-serif;
+    }
+
+    .menu-header {
+        width: 30px;
+        height: 30px;
+    }
+}
