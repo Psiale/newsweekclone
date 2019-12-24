@@ -24,6 +24,7 @@ body {
 
 .font-links {
     font: bold 14px/14px "Roboto Condensed",sans-serif;
+    font-size: 18px;
 }
 
 .wrapper {
@@ -31,11 +32,15 @@ body {
 }
 
 .header {
+    position: relative;
     height: 95px;
     padding: 20px 10px 15px;
 }
 
 .hd-image {
+    position: absolute;
+    left: 30%;
+    top: 10%;
     min-width: 396px;
     width: 396px;
     height: 60px;
@@ -49,6 +54,7 @@ body {
     }
 
     .header {
+        position: unset;
         margin: 0;
         padding: 0;
         height:  50px;
@@ -56,6 +62,7 @@ body {
     }
 
     .hd-image {
+        position: unset;
         min-width: 132px;
         width: 132px;
         height: 20px;
