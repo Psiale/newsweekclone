@@ -51,6 +51,10 @@ body {
 .white-header {
     position: relative;
     height: 50px;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
 }
 
 .white-header::before {
@@ -62,6 +66,16 @@ body {
     content: "";
     top: 0;
     right: 0;
+}
+
+.search-item {
+    width: 130px;
+}
+
+.icon-search {
+    width: 20px;
+    height: 20px;
+    color: #3f3f3f;
 }
 
 @media (max-width: 991px) {
