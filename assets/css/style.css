@@ -31,7 +31,7 @@ body {
     margin: 0 100px;
 }
 
-.header {
+.red-header {
     position: relative;
     height: 95px;
     padding: 20px 10px 15px;
@@ -48,12 +48,28 @@ body {
     margin: 10px auto 0;
 }
 
+.white-header {
+    position: relative;
+    height: 50px;
+}
+
+.white-header::before {
+    position: absolute;
+    width: 50px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 12px solid #f72210;
+    content: "";
+    top: 0;
+    right: 0;
+}
+
 @media (max-width: 991px) {
     .media-mobile {
         display: none !important;
     }
 
-    .header {
+    .read-header {
         position: unset;
         margin: 0;
         padding: 0;
