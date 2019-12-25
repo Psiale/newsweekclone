@@ -88,7 +88,7 @@ body {
 .wrapper {
     margin: 0;
     background-color: white;
-    padding: 20px 15px 0 15px;
+    padding: 25px 30px 0 30px;
 }
 
 .main {
@@ -97,24 +97,40 @@ body {
 
 .main-children {
 width: 33.33%;
+height: 100%;
 }
 
 .main-title-heading {
     color: rgba(3,3,3,.4);
+}
+
+.main-title-heading,
+.image-title-section {
     text-transform: uppercase;
     font: bold 16px/16px "Roboto Condensed",sans-serif;
 }
 
+.image-title-section {
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 .main-children-1 {
 background-color: yellow;
+width: 35%;
+height: 100%;
 }
 
 .main-children-2{
-background-color: tomato;
+width: 35%;
 }
 
 .main-children-3 {
 background-color: saddlebrown;
+width: 30%;
 }
 @media (max-width: 991px) {
     .media-mobile {
@@ -176,5 +192,48 @@ background-color: saddlebrown;
     .menu-header {
         width: 30px;
         height: 30px;
+    }
+    .wrapper {
+        padding: 20px 20px 0 20px;
+    }
+
+    .story-section1,
+    .story-section2,
+    .story-section3 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .story-section1 {
+        position: relative;
+        height: 60%;
+    }
+
+    .img-section {
+        width: 100%;
+        height: auto;
+        background: url(../images/top-story1.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .story-section2,
+    .story-section3 {
+        height: 20%;
+    }
+
+
+    .story-title {
+        font-size: 22px;
+        line-height: 24px;
+        font-weight: bold;
+        font-family: "Roboto Condensed",sans-serif;
+    }
+
+    .text-content {
+        color: #333;
+        margin-bottom: 10px;
+        font-size: 13px;
+        line-height: 18px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
