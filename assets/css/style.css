@@ -2,8 +2,9 @@
     color: white;
 }
 
-.mb-10px {
-    margin-bottom: 10px;
+.mb-pb-10px {
+    padding-bottom: 10px;
+    margin-bottom: 0;
 }
 
 
@@ -164,6 +165,7 @@ width: calc(25% - 10px);
 
 .ms-1 {
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .miscellaneum-border-bottom {
