@@ -7,6 +7,10 @@
     margin-bottom: 0;
 }
 
+.mb-10px {
+    margin-bottom: 10px;
+}
+
 
 .bg-white {
     background-color: white;
@@ -170,6 +174,41 @@ width: calc(25% - 10px);
 
 .miscellaneum-border-bottom {
 border-bottom: 1px solid #ccc;
+}
+
+.ct-title {
+    color: rgba(3,3,3,.5);
+}
+
+.culture-travel-section-container {
+    background-color:#f4f5f7;
+}
+
+.ct-child-title {
+    color: #272727;
+    font: 20px/22px "Lora",serif;
+}
+
+.ct-padding {
+    padding: 15px 10px 20px;
+}
+
+.ct-child-content {
+    font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: rgba(39,39,39,.5);
+}
+
+
+.ct-tag {
+    width: 50px;
+    background-color: #c2d4d7;
+    padding-left: 6px;
+    padding-right: 6px; 
+}
+
+.ct-tag-text {
+    font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+    color: #272727;
 }
 
 @media (max-width: 991px) {
