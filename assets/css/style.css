@@ -284,6 +284,23 @@ border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
 }
 
+.si-child {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+
+.op-img-container {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background-color: #f72210;
+}
+
+.op-img {
+    width: 100%;
+    height: 100%;
+}
+
 @media (min-width: 1440px) {
     body {
         width: 97% !important;
