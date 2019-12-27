@@ -24,6 +24,14 @@
     background-color: #f72210;
 }
 
+.overflow {
+    overflow: hidden !important;
+}
+
+.overflow-x {
+    overflow-x: hidden !important;
+}
+
 body {
     font: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
@@ -209,6 +217,13 @@ border-bottom: 1px solid #ccc;
 .ct-tag-text {
     font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
     color: #272727;
+}
+
+@media (min-width: 1440px) {
+    body {
+        width: 97% !important;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 991px) {
