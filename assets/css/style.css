@@ -322,6 +322,16 @@ border-bottom: 1px solid #ccc;
     font-weight: bold;
 }
 
+.ls-image-container {
+    flex: none;
+    width: 135px;
+    margin-right: 15px;
+}
+
+.ls-image {
+    width: 100%;
+}
+
 @media (min-width: 1440px) {
     body {
         width: 88% !important;
@@ -367,6 +377,7 @@ border-bottom: 1px solid #ccc;
     .op-content {
         flex-direction: column !important;
     }
+
 
     .featured-stories-container {
         padding: 0;
