@@ -374,9 +374,10 @@ border-bottom: 1px solid #ccc;
     margin-right: 10px;
 }
 
-.nl-1 > span {
-    margin-bottom: 15px;
+.title-black {
     font: bold 19px/19px "Roboto Condensed",sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 .nl-2 > a {
