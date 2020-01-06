@@ -227,11 +227,11 @@ main {
 }
 
 .ms-title {
-    width: calc(100% - 150px);
-    font-weight: bold;
-    font-family: "Roboto Condensed",sans-serif;
-    font-size: 17px;
-    line-height: 20px;   
+width: calc(100% - 150px);
+font-weight: bold;
+font-family: "Roboto Condensed",sans-serif;
+font-size: 17px;
+line-height: 20px;
 }
 
 .ms-image {
