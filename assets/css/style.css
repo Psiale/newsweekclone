@@ -360,6 +360,38 @@ border-bottom: 1px solid #ccc;
     width: 100%;
 }
 
+.nws-ls-container {
+    max-width: 300px;
+    margin: 0 auto 30px;
+    border: 1px solid #e5e5e5;
+    background-color: #f4f5f6;
+    padding: 20px;
+}
+
+.nl-1 > img {
+    width: 29px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.nl-1 > span {
+    margin-bottom: 15px;
+    font: bold 19px/19px "Roboto Condensed",sans-serif;
+}
+
+.nl-2 > a {
+    width: fit-content;
+    margin-bottom: 10px;
+    background-color: #666;
+    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    padding: 10px 10px 10px 12px;
+}
+
+.nl-2 > span {
+    color: #333;
+    font: bold 15px/15px "Roboto Condensed",sans-serif;
+}
+
 @media (min-width: 1440px) {
     body {
         width: 88% !important;
@@ -414,8 +446,7 @@ border-bottom: 1px solid #ccc;
     .si-child
     {
         max-width: 330px;
-        margin: 0 auto;
-        padding-bottom: 30px;
+        margin: 0 auto 30px;
     }
 }
 
