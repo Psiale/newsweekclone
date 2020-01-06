@@ -342,6 +342,10 @@ border-bottom: 1px solid #ccc;
     font-weight: bold;
 }
 
+.ls-container {
+    padding-bottom: 30px;
+}
+
 .ls-child {
     padding: 10px 0;
 }
@@ -405,6 +409,13 @@ border-bottom: 1px solid #ccc;
 
     .featured-stories-container {
         padding: 0;
+    }
+
+    .si-child
+    {
+        max-width: 330px;
+        margin: 0 auto;
+        padding-bottom: 30px;
     }
 }
 
