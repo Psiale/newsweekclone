@@ -19,7 +19,6 @@ h3 {
     color: black;
 }
 
-
 .fs-title,
 .story-title {
     font-family: "Roboto Condensed",sans-serif;
@@ -393,6 +392,58 @@ line-height: 20px;
     color: #333;
     font: bold 15px/15px "Roboto Condensed",sans-serif;
 }
+
+.center-item  {
+    padding-top: 4px;
+}
+
+.nw-magazine-child {
+    padding: 0 30px;
+    background-color: orange;
+}
+
+.magazine-cover {
+    width: 25%;
+}
+
+.mg-c-1 {
+    width: 100%;
+    height: 218px;
+}
+
+.magazine-article-container {
+    width: 75%;
+    justify-content: space-between;
+}
+
+.ma-child {
+    width: calc(33% - 15px);
+}
+
+
+.mg-c-1 > img {
+    width: 100%;
+    height: 100%;
+}
+
+.mg-c-2 {
+    padding: 10px 0;
+}
+
+.red-tag {
+    padding: 0 7px;
+    background-color: #f72210;
+    color: white;
+    margin-right: 7px;
+}
+
+.text-tag {
+    display: inline-block;
+    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
 
 @media (min-width: 1440px) {
     body {
