@@ -15,6 +15,15 @@
     margin-bottom: 10px;
 }
 
+
+.plr-15{
+    padding: 0 15px;
+}
+
+.ma-p-left {
+    padding: 0 15px 0 0;
+}
+
 h3 {
     color: black;
 }
@@ -427,16 +436,16 @@ line-height: 20px;
 
 .magazine-article-container {
     width: 79%;
+    justify-content: space-evenly;
 }
 
 .magazine-article-container-1 {
-    width: calc(100% - 60px);
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .ma-child {
     width: calc(33% - 15px);
-    padding: 0 15px;
 }
 
 .mc-child {
