@@ -413,7 +413,7 @@ line-height: 20px;
 }
 
 .nw-magazine-child {
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 .magazine-cover {
@@ -548,13 +548,17 @@ line-height: 20px;
     }
 
     .mg-c-1 > img {
-        width: 115%;
+        width: 100%;
     }
 }
 
 @media (max-width: 767px) {
     .media-767px {
-        display: none;
+        display: none !important;
+    }
+
+    .d-767px {
+        display: initial !important;
     }
 
     .main-children {
@@ -577,8 +581,37 @@ line-height: 20px;
         bottom: -56px;
     }
 
+    .mg-c-1 {
+        height: auto;
+        max-height: 480px;
+    }
+
     .mg-c-1 > img {
-        width: 115%;
+        width: 100%;
+    }
+
+    .mc-child > img {
+        height: auto;
+    }
+    .mc-child {
+        margin-bottom: 80px;
+    }
+
+    .nl-1,
+    .ma-child {
+        margin-bottom: 20px;
+    }
+
+    .ma-child {
+        width: 100%;
+        padding: 0;
+    }
+    .magazine-cover,
+    .magazine-article-container,
+    .magazine-article-container-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -655,7 +688,4 @@ line-height: 20px;
         flex-direction: column;
     }
 
-    .ma-child {
-        width: 100%;
-    }
 }
