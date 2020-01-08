@@ -63,6 +63,11 @@ a:hover,
 .story-section2,
 .story-section3 {
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.story-section3 > span {
+    padding-bottom: 10px;
 }
 
 .story-section2,
@@ -426,7 +431,7 @@ line-height: 20px;
 }
 
 .magazine-cover {
-    width: 21%;
+    width: 25%;
 }
 
 .mg-c-1 {
@@ -435,7 +440,7 @@ line-height: 20px;
 }
 
 .magazine-article-container {
-    width: 79%;
+    width: 75%;
     justify-content: space-evenly;
 }
 
@@ -464,7 +469,7 @@ line-height: 20px;
 }
 
 .mg-c-2 {
-    padding: 10px 0;
+    margin: 10px 0;
 }
 
 .red-tag {
@@ -630,6 +635,15 @@ line-height: 20px;
     .nw-magazine-child {
         padding: 0 15px;
     }
+
+    .mg-c-3 > a > h5 {
+    font-size: 16px;
+    line-height: 16px;
+    }
+
+    .mg-c-2 {
+        margin: 20px 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -703,6 +717,10 @@ line-height: 20px;
     .nw-magazine-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .mg-c-2 {
+        margin: 10px 0;
     }
 
 }
