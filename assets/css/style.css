@@ -513,6 +513,10 @@ line-height: 20px;
     width: 100%;
     flex-direction: column;
     display: flex;
+}
+
+.editors-container,
+.featured-show-container {
     padding: 0 30px;
 }
 
@@ -528,6 +532,30 @@ line-height: 20px;
 .ep-child {
     width: calc( 25% - 25px);
     margin-top: 10px;
+}
+
+.fshow-child {
+    width: calc(33% - 25px);
+}
+
+.fshow-image {
+    position: relative;
+}
+
+.sl-counter {
+    width: 70px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://web.archive.org/web/20191219081500im_/https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
 }
 
 @media (min-width: 1440px) {
@@ -594,7 +622,8 @@ line-height: 20px;
        padding: 0 0 0 15px;
     }
 
-    .editors-container {
+    .editors-container,
+    .featured-show-container {
         padding: 0 15px;
     }
 
@@ -677,9 +706,20 @@ line-height: 20px;
     .mg-c-2 {
         margin: 20px 0;
     }
-    
-    .ep-child {
+
+    .ep-child,
+    .fshow-child {
         width: 100%;
+    }
+
+    .fshow-image {
+        height: auto;
+        max-height: 480px;
+    }
+
+    .fshow-child {
+        display: flex;
+        flex-direction: column;
     }
 }
 
