@@ -1,3 +1,7 @@
+* {
+    border: 1px red solid !important;
+}
+
 .text-white {
     color: white;
 }
@@ -642,6 +646,13 @@ line-height: 20px;
 
     .ep-child {
         width: calc( 50% - 15px);
+    }
+
+    .miscellaneum-item-container,
+    .ls-image-container,
+    .ls-content {
+        flex: auto;
+        width: 50%;
     }
 }
 
