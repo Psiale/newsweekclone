@@ -40,7 +40,7 @@ a:hover,
 
 .fs-title,
 .story-title {
-    font-family: "Roboto Condensed",sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 24px;
@@ -116,7 +116,7 @@ body {
 }
 
 .font-links {
-    font: bold 14px/14px "Roboto Condensed",sans-serif;
+    font: bold 14px/14px "Roboto Condensed", sans-serif;
     font-size: 18px;
 }
 
@@ -149,7 +149,7 @@ body {
     line-height: 24px;
     font-weight: bold;
     background-color: white;
-    font-family: "Roboto Condensed",sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .white-header::before {
@@ -211,7 +211,7 @@ main {
 .main-title-heading,
 .image-title-section {
     text-transform: uppercase;
-    font: bold 16px/16px "Roboto Condensed",sans-serif;
+    font: bold 16px/16px "Roboto Condensed", sans-serif;
     padding: 10px 10px 0 10px;
 }
 
@@ -255,7 +255,7 @@ main {
 .ms-title {
     width: calc(100% - 150px);
     font-weight: bold;
-    font-family: "Roboto Condensed",sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 17px;
     line-height: 20px;
 }
@@ -301,7 +301,7 @@ main {
 
 .ct-child-title {
     color: #272727;
-    font: 20px/22px "Lora",serif;
+    font: 20px/22px "Lora", serif;
 }
 
 .ct-padding {
@@ -309,7 +309,7 @@ main {
 }
 
 .ct-child-content {
-    font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+    font: 15px/20px "Helvetica Neue","Helvetica", Arial, sans-serif;
     color: rgba(39, 39, 39, 0.5);
 }
 
@@ -321,7 +321,7 @@ main {
 }
 
 .ct-tag-text {
-    font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+    font: 300 13px/20px "Helvetica Neue","Helvetica", Arial, sans-serif;
     color: #272727;
 }
 
@@ -354,7 +354,7 @@ main {
     color: inherit;
     line-height: normal;
     font-size: 15px;
-    font: "Roboto Condensed",sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
 }
 
@@ -364,7 +364,7 @@ main {
     color: #555;
     text-transform: uppercase;
     margin-top: 4px;
-    font: "Roboto Condensed",sans-serif;
+    font-family: "Roboto Condensed",sans-serif;
     font-weight: bold;
 }
 
@@ -401,7 +401,7 @@ main {
 }
 
 .title-black {
-    font: bold 19px/19px "Roboto Condensed",sans-serif;
+    font: bold 19px/19px "Roboto Condensed", sans-serif;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -410,13 +410,13 @@ main {
     width: fit-content;
     margin-bottom: 10px;
     background-color: #666;
-    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
     padding: 10px 10px 10px 12px;
 }
 
 .nl-2 > span {
     color: #333;
-    font: bold 15px/15px "Roboto Condensed",sans-serif;
+    font: bold 15px/15px "Roboto Condensed", sans-serif;
 }
 
 .center-item {
@@ -478,14 +478,14 @@ main {
 
 .text-tag {
     display: inline-block;
-    font: bold 16px/26px "Roboto Condensed",sans-serif;
+    font: bold 16px/26px "Roboto Condensed", sans-serif;
     color: #f72210;
     text-transform: uppercase;
 }
 
 .mg-c-3 > a > h5 {
     font-weight: bold;
-    font-family: "Roboto Condensed",sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
     line-height: 20px;
 }
@@ -493,7 +493,7 @@ main {
 .magazine-title {
     color: black;
     text-align: center;
-    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     background-color: #f4f5f6;
     width: 100%;
@@ -558,7 +558,7 @@ main {
 }
 
 .miscellaneum-title {
-    font-family: "Roboto Condensed",sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
     border-top: 1px solid #d9d9d9;
     color: #f72210;
@@ -621,9 +621,7 @@ main {
 }
 
 .foo-text {
-    font-size: 24px;
-    line-height: 28px;
-    font: 300 15px/21px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 25px;
 }
 
@@ -631,7 +629,7 @@ main {
     display: inline-block;
     padding: 10px 10px 10px 12px;
     color: white;
-    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
     text-transform: uppercase;
     background-color: #f72210;
     margin-bottom: 0;
@@ -671,7 +669,7 @@ main {
     font-size: 14px;
     line-height: 15px;
     color: #666;
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial,Helvetica, sans-serif;
 }
 
 .foo-link {
@@ -827,6 +825,7 @@ main {
     .mc-child > img {
         height: auto;
     }
+
     .mc-child {
         margin-bottom: 80px;
     }
@@ -840,6 +839,7 @@ main {
         width: 100%;
         padding: 0;
     }
+
     .magazine-cover,
     .magazine-article-container,
     .magazine-article-container-1 {
@@ -853,8 +853,8 @@ main {
     }
 
     .mg-c-3 > a > h5 {
-            font-size: 16px;
-            line-height: 16px;
+        font-size: 16px;
+        line-height: 16px;
     }
 
     .mg-c-2 {
@@ -937,6 +937,7 @@ main {
         width: 30px;
         height: 30px;
     }
+
     .wrapper {
         padding: 13px 13px 0 13px;
     }
@@ -973,6 +974,7 @@ main {
     .main-children-1 {
         order: 2;
     }
+
     .main-children-3 {
         order: 3;
     }
