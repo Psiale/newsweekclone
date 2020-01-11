@@ -1,7 +1,3 @@
-/* * {
-    border: 1px red solid !important;
-} */
-
 .text-white {
     color: white;
 }
@@ -20,7 +16,7 @@
 }
 
 
-.plr-15{
+.plr-15 {
     padding: 0 15px;
 }
 
