@@ -172,7 +172,7 @@ body {
     width: 130px;
     font-size: 18px;
     line-height: 24px;
-    color: rgba(0, 0, 0, .55);
+    color: rgba(0, 0, 0, 0.55);
 }
 
 .icon-search {
@@ -206,7 +206,7 @@ main {
 }
 
 .main-title-heading {
-    color: rgba(3,3,3,.4);
+    color:rgba(3,3,3,0.4);
 }
 
 .main-title-heading,
@@ -222,7 +222,7 @@ main {
 
 .image-title-section {
     padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
+    background-color:rgba(255,255,255,0.9);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -277,7 +277,7 @@ line-height: 20px;
 }
 
 .ct-title {
-    color: rgba(3,3,3,.5);
+    color:rgba(3,3,3,0.5);
 }
 
 .text-content {
@@ -312,7 +312,7 @@ line-height: 20px;
 
 .ct-child-content {
     font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
-    color: rgba(39,39,39,.5);
+    color:rgba(39,39,39,0.5);
 }
 
 
@@ -580,7 +580,7 @@ line-height: 20px;
 }
 
 .footer-child {
-    display: flex;  
+    display: flex;
     padding: 30px;
 }
 
