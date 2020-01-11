@@ -284,7 +284,7 @@ main {
 }
 
 .culture-travel-section-container {
-    background-color:#f4f5f7;
+    background-color: #f4f5f7;
 }
 
 .ct-child {
@@ -529,7 +529,7 @@ main {
 }
 
 .ep-child {
-    width: calc( 25% - 25px);
+    width: calc(25% - 25px);
     margin-top: 10px;
 }
 
@@ -749,7 +749,7 @@ main {
     }
 
     .nw-magazine-child {
-            padding: 0 0 0 15px;
+        padding: 0 0 0 15px;
     }
 
     .editors-container,
