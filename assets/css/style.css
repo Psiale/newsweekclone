@@ -172,7 +172,7 @@ body {
     width: 130px;
     font-size: 18px;
     line-height: 24px;
-    color: rgba(0,0,0,.55);
+    color: rgba(0, 0, 0, .55);
 }
 
 .icon-search {
@@ -237,7 +237,7 @@ main {
     height: 100%;
 }
 
-.main-children-2{
+.main-children-2 {
     width: 39%;
 }
 
@@ -422,7 +422,7 @@ line-height: 20px;
     font: bold 15px/15px "Roboto Condensed",sans-serif;
 }
 
-.center-item  {
+.center-item {
     padding-top: 4px;
 }
 
@@ -522,7 +522,7 @@ line-height: 20px;
     padding: 0 30px;
 }
 
-.editors-child-container{
+.editors-child-container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -605,7 +605,7 @@ line-height: 20px;
 }
 
 .foc-2images {
-padding-right: 90px ;
+padding-right: 90px;
 }
 
 .foc-1image {
@@ -708,7 +708,7 @@ padding-right: 90px ;
         position: unset;
         margin: 0;
         padding: 0;
-        height:  50px;
+        height: 50px;
         max-height: 50px;
     }
 
