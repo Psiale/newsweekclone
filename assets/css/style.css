@@ -321,10 +321,10 @@ line-height: 20px;
 
 
 .ct-tag {
-    width: 50px;
-    background-color: #c2d4d7;
-    padding-left: 6px;
-    padding-right: 6px; 
+  width: 50px;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .ct-tag-text {
@@ -999,5 +999,4 @@ padding-right: 90px ;
     .mg-c-2 {
         margin: 10px 0;
     }
-
 }
