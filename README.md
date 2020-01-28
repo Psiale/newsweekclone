@@ -10,7 +10,9 @@
 * [Credits](#contact)
 * [Live Demo](#Live-Version)
 <br>
+
 # The purpouse of this webpage:
+
 To made use of media queries and Boostrap to recreate a full responsive clone of the Newsweek website.
 <br>
 
