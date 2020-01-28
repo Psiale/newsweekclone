@@ -1,10 +1,6 @@
 # NewsWeek Clone
 ### A NewsWeek clone focusing on the responsive behavior of the original website using Boostrap.
 
-![screenshot](assets/images/NW-1.png)
-![screenshot](assets/images/NW-2.png)
-![screenshot](assets/images/NW-3.png)
-
 * [The purpouse of this webpage](#The-purpouse-of-this-webpage)
 * [Built With](#built-with)
 * [Credits](#contact)
@@ -19,7 +15,9 @@ To made use of media queries and Boostrap to recreate a full responsive clone of
 # Built With
 Media queries, Boostrap and a lot of love and effort.
 
-
+![screenshot](assets/images/NW-1.png)
+![screenshot](assets/images/NW-2.png)
+![screenshot](assets/images/NW-3.png)
 
 # Credits
 ### https://github.com/Psiale
