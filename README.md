@@ -1,10 +1,10 @@
 # NewsWeek Clone
 ### A NewsWeek clone focusing on the responsive behavior of the original website using Boostrap.
 
-* [The purpouse of this webpage](#The-purpouse-of-this-webpage)
+* [The purpouse of this webpage](#the-purpouse-of-this-webpage)
 * [Built With](#built-with)
-* [Credits](#contact)
-* [Live Demo](#Live-Version)
+* [Credits](#credits)
+* [Live Version](#live-version)
 <br>
 
 # The purpouse of this webpage:
@@ -20,7 +20,10 @@ Media queries, Boostrap and a lot of love and effort.
 ![screenshot](assets/images/NW-3.png)
 
 # Credits
-### https://github.com/Psiale
+**Alexis Sanchez**
+- Github: [@Psiale](https://github.com/Psiale)
+- Twitter: [@TFH_](https://twitter.com/TFH_)
+- Linkedin: [Alexis Sanchez](https://www.linkedin.com/in/alexis-sanchez-dev/)
 
 # Live Version
 
