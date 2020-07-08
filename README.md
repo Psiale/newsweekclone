@@ -9,10 +9,10 @@
 
 # The purpouse of this webpage:
 
-To made use of media queries and Boostrap to recreate a full responsive clone of the Newsweek website.
+To make use of media queries and Boostrap to recreate a full responsive clone of the Newsweek website.
 <br>
 
-# Built With
+# Built With   
 Media queries, Boostrap and a lot of love and effort.
 
 ![screenshot](assets/images/NW-1.png)
