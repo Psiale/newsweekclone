@@ -1,13 +1,13 @@
 # NewsWeek Clone
 ### A NewsWeek clone focusing on the responsive behavior of the original website using Boostrap.
 
-* [The purpouse of this webpage](#the-purpouse-of-this-webpage)
+* [The purpose of this webpage](#the-purpouse-of-this-webpage)
 * [Built With](#built-with)
 * [Credits](#credits)
 * [Live Version](#live-version)
 <br>
 
-# The purpouse of this webpage:
+# The purpose of this webpage:
 
 To make use of media queries and Boostrap to recreate a full responsive clone of the Newsweek website.
 <br>
